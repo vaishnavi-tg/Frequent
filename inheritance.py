@@ -10,6 +10,7 @@ class Car:
 
 class ToyotaCar(Car):
     def __init__(self,firstname):
+        self.firstname=firstname
         print("Name of the car is",self.firstname)        
 
 
