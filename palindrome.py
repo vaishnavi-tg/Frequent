@@ -1,6 +1,6 @@
-num = input("Enter the string or number\n")
-reverse = num[::-1]
-if(num==reverse):
-    print("palindrome")
+take = input("Enter a number or a string that you check as a palindrome \n ")
+reversed = take[::-1]
+if(reversed==take):
+    print("Palindrome")
 else:
-    print("Not a palindrome")    
+    print("Not a palindome")    
