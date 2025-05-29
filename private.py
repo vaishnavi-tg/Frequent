@@ -8,4 +8,4 @@ class Account:
 
 acc1 = Account("12345","56789")
 print(acc1.accNo)
-acc1.reset
+print(acc1.__accPass)
